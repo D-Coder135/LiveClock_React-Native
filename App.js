@@ -26,12 +26,12 @@ const styles = StyleSheet.create({
     flex: 1,
     // justifyContent: 'center',
     paddingTop: Constants.statusBarHeight,
-    backgroundColor: '#ecf0f1',
+    backgroundColor: 'amber',
     padding: 8,
   },
   paragraph: {
     margin: 24,
-    fontSize: 18,
+    fontSize: 40,
     fontWeight: 'bold',
     textAlign: 'center',
     color: 'red'
