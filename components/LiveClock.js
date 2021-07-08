@@ -14,7 +14,7 @@ export default class LiveClock extends React.Component {
         return (
              <View style={styles.container}>
       <Text style={styles.paragraph}>
-        
+        {this.state.currentTime.toLocaleTimeString('en-US')}
       </Text>
     </View>
         );
