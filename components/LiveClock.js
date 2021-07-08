@@ -10,6 +10,10 @@ export default class LiveClock extends React.Component {
         }
     }
 
+    componentDidMount() {
+        
+    }
+
     liveUpdate = ()=>{
         this.setState({currentTime: new Date()})
     }
