@@ -15,7 +15,7 @@ export default function App() {
         Change code in the editor and watch it change on your phone! Save to get a shareable url.
       </Text>
       <Card>
-        <AssetExample />
+        <LiveClock />
       </Card>
     </View>
   );
