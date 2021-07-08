@@ -10,6 +10,10 @@ export default class LiveClock extends React.Component {
         }
     }
 
+    liveUpdate = ()=>{
+        
+    }
+
     render() {
         return (
              <View style={styles.container}>
