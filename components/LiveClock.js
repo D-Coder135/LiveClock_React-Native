@@ -6,7 +6,7 @@ export default class LiveClock extends React.Component {
         return (
              <View style={styles.container}>
       <Text style={styles.paragraph}>
-        Live Clock.
+        
       </Text>
     </View>
         );
