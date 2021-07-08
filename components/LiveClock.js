@@ -2,6 +2,11 @@ import * as React from 'react';
 import {Text, View, StyleSheet} from 'react-native';
 
 export default class LiveClock extends React.Component {
+
+    constructor() {
+        
+    }
+
     render() {
         return (
              <View style={styles.container}>
