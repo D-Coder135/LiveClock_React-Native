@@ -5,7 +5,9 @@ export default class LiveClock extends React.Component {
 
     constructor() {
         super();
-        this.state = {}
+        this.state = {
+            currentTime: new Date()
+        }
     }
 
     render() {
