@@ -14,7 +14,7 @@ export default function App() {
       <Text style={styles.paragraph}>
         Live Clock
       </Text>
-      <Card>
+      <Card style = {{backgroundColor: 'black'}}>
         <LiveClock />
       </Card>
     </View>
